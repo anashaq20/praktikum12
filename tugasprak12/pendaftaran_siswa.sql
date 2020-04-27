@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Apr 2020 pada 10.20
+-- Waktu pembuatan: 27 Apr 2020 pada 07.59
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.4
 
@@ -61,9 +61,11 @@ CREATE TABLE `pendaftaran_siswa` (
 --
 
 INSERT INTO `pendaftaran_siswa` (`id_pendaftar`, `nama`, `jk`, `nisn`, `nik`, `tpt_lahir`, `tgl_lhr`, `no_akta`, `agama`, `kwn`, `butuh_khs`, `alamat`, `rt`, `rw`, `dusun`, `kelurahan`, `kecamatan`, `kdpos`, `lintang`, `bujur`, `tpt_tinggal`, `moda_trans`, `no_kks`, `anak_ke`, `ada_kps`, `no_kps_pkh`) VALUES
-(1, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '1231241212312512312123123124', 'Islam', 'Indonesia (WNI)', 'Tidak', 'Jalan Jaksa Agung Suprapto No 95', '002', '008', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
-(2, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '1231241212312512312123123124', 'Islam', 'Indonesia (WNI)', 'Tidak', '1231241212312512312123123124', '002', '008', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
-(3, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '1231241212312512312123123124', 'Islam', 'Indonesia (WNI)', 'Tidak', '1231241212312512312123123124', '002', '008', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123');
+(1, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '029138702938102938102947109809801928301972409182', 'Islam', 'Indonesia (WNI)', 'Tidak', 'Jalan Jaksa Agung Suprapto No 95', '002', '004', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
+(2, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '029138702938102938102947109809801928301972409182', 'Islam', 'Indonesia (WNI)', 'Tidak', '029138702938102938102947109809801928301972409182', '002', '004', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
+(3, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '029138702938102938102947109809801928301972409182', 'Islam', 'Indonesia (WNI)', 'Tidak', '029138702938102938102947109809801928301972409182', '002', '004', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
+(4, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '029138702938102938102947109809801928301972409182', 'Islam', 'Indonesia (WNI)', 'Tidak', '029138702938102938102947109809801928301972409182', '002', '004', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123'),
+(5, 'Ahmad Nashirul Haq', 'Laki-Laki', '0004096817', '3527031908000007', 'Sampang', '2000-08-19', '029138702938102938102947109809801928301972409182', 'Islam', 'Indonesia (WNI)', 'Tidak', '029138702938102938102947109809801928301972409182', '002', '004', 'Gunung Sekar', 'Gunung Sekar', 'Sampang', '69213', '144 LU 114 LS', '100 BB 100 BT', 'Bersama Orang Tua', 'Jalan', '90180293', '1', 'Ya', '12312412312123');
 
 --
 -- Indexes for dumped tables
@@ -83,7 +85,7 @@ ALTER TABLE `pendaftaran_siswa`
 -- AUTO_INCREMENT untuk tabel `pendaftaran_siswa`
 --
 ALTER TABLE `pendaftaran_siswa`
-  MODIFY `id_pendaftar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_pendaftar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
